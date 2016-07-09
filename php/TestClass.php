@@ -17,7 +17,7 @@ class TestClass
 		{
 			// Instead of echoing as the LayoutClass generates the div, this function will concatenate the pieces into a session var
 			echo $htmlString;
-			//$_SESSION['echoString'] .= $htmlString;
+			$_SESSION['echoString'] .= $htmlString;
 		};
 
 		$responseObject = new ResponseObject();

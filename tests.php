@@ -23,7 +23,7 @@ require_once "php/LayoutClass.php";
 				Follow @C4tsOfBallard</a>
 			
 			<div id="TestContainer">
-			<p>Message about test approach</p>
+			<p>Given this mock tweet, does LayoutClass generate the string I expect? Instead of echoing the string each time, concatenate it in a session variable, then compare it with what you would expect to build from the same tweet and a layout object.</p>
 			<?php
 				$testClass = new TestClass();
 				$layoutObject = new MyLayout();
