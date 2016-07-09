@@ -1,0 +1,85 @@
+/* Shared styles between pages */
+html
+{
+	height: 100%;
+	margin: 0;
+	background: #36454F;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-cover: cover;
+}
+
+body
+{
+	height: 100%;
+}
+
+a
+{
+	background-color: white;
+}
+
+img
+{
+	width: 100%;
+}
+
+.BodyContainer
+{
+	/* Style me! */
+}
+
+.ContentContainer
+{
+	width: 40%;
+	margin: auto;
+}
+
+.WidgetCatContent
+{
+	/* Style me! */
+}
+
+#TestContainer
+{
+	width:100%;
+	background-color: white;
+	margin:auto;
+	margin-top: 5%;
+	border-radius: 20px;
+	padding:5%;
+	height: 100%;
+}
+
+.Tweet
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	border-style: solid;
+	border-color: #36454F;
+	border-radius: 25px;
+	border-color: #55acee;
+	border-width: 3px;
+	background-color: white;
+	margin: 5%;
+	padding: 5%;
+}
+
+.TweetUserAvatar
+{
+	width: 10%;
+	float: left;
+	padding-right: 2%;
+}
+
+.TwitPic
+{
+	margin-top: 5%;
+}
+
+.TwitterLogo
+{
+	float: right;
+	width: 10%;
+}
