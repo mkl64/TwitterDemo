@@ -7,8 +7,8 @@ require_once "php/LayoutClass.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 // TODO: hard coding these key/secret values isn't kosher
-$consumer_key = CONSUMER_KEY;
-$consumer_secret = CONSUMER_SECRET;
+$consumer_key = 'qU3n21spW3JHJ5bi4EPP04HxW';
+  $consumer_secret = '0L3AtOkvwWUYCbE7L02LQiR3gZ3IW09KnPitkzxtCe5vFIDCkp';
 $twitter = new TwitterOAuth($consumer_key, $consumer_secret);
 $_SESSION['bearerToken'] = $twitter->oauth2('oauth2/token', array('grant_type' => 'client_credentials'));
 ?>

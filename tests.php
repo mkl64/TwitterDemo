@@ -2,6 +2,7 @@
 <?php
 require_once "php/TestClass.php";
 require_once "php/LayoutClass.php";
+
 ?>
 <html>
 	<head>
@@ -29,11 +30,8 @@ require_once "php/LayoutClass.php";
 				$layoutObject = new MyLayout();
 				
 				$testClass->TestLayoutGeneration($layoutObject);
-				
-				//$testString = $testClass->GenerateExpectedEchoString($layoutObject,$mockTweet);
-				//echo $testString;
 			?>
-		</div>
+			</div>
 		
 		</div>
 		

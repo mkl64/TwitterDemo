@@ -32,8 +32,8 @@ class MyLayout
 							if (isset($result->user->profile_image_url))
 							{
 								$avatarStr = $this->openingAvatarImgStr.$result->user->profile_image_url.$this->closingBrace;
-								$layoutDelegate($avatarStr);
 							}
+							$layoutDelegate($avatarStr);
 							
 							$layoutDelegate($this->tweetLogoStr);
 							
